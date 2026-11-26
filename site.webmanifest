@@ -1,0 +1,13 @@
+{
+  "name": "Agro Extract Lanka",
+  "short_name": "Agro Extract",
+  "description": "Solvent extraction plant and edible oil refinery in Sri Lanka.",
+  "start_url": ".",
+  "display": "browser",
+  "background_color": "#0C2B21",
+  "theme_color": "#0C2B21",
+  "icons": [
+    { "src": "assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

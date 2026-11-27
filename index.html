@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Agro Extract Lanka | Solvent Extraction Plant &amp; Edible Oil Refinery, Sri Lanka</title>
-<meta name="description" content="Agro Extract Lanka runs a solvent extraction plant and edible oil refinery in Sri Lanka, producing canola, sunflower, rice bran and palm oil, plus de-oiled meal for animal feed.">
+<meta name="description" content="Agro Extract Lanka (Pvt) Ltd runs a solvent extraction plant and edible oil refinery at Dankotuwa, Sri Lanka, producing canola, sunflower, rice bran and palm oil, plus de-oiled meal for animal feed.">
 <meta name="theme-color" content="#0C2B21">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Agro Extract Lanka">
@@ -20,6 +20,37 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="assets/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Agro Extract Lanka",
+  "legalName": "Agro Extract Lanka (Pvt) Ltd.",
+  "description": "Solvent extraction plant and edible oil refinery producing canola, sunflower, rice bran and palm oil.",
+  "email": "agroextractlanka@gmail.com",
+  "telephone": "+94 112 590 176",
+  "faxNumber": "+94 112 581 618",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1E, 2/1 De Fonseka Place",
+    "addressLocality": "Colombo 05",
+    "addressCountry": "LK"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "Factory",
+    "telephone": "+94 312 260 300",
+    "address": {
+      "@type": "PostalAddress",
+      "postOfficeBoxNumber": "3",
+      "streetAddress": "Bujjampola",
+      "addressLocality": "Dankotuwa",
+      "addressCountry": "LK"
+    }
+  },
+  "memberOf": { "@type": "Organization", "name": "GEL Corporation KK" }
+}
+</script>
 </head>
 <body>
 <script>document.documentElement.classList.add('js')</script>
@@ -142,6 +173,7 @@
         <h2>We take oilseeds all the way to refined oil.</h2>
         <p class="lead">Agro Extract Lanka is a Sri Lankan processor of edible oils. Our solvent extraction plant recovers the oil that pressing leaves behind. Our refinery turns that crude oil into a clean, stable product for kitchens and food factories.</p>
         <p>Running both stages ourselves means we answer for quality from the day seed arrives to the day oil is loaded.</p>
+        <p>Our factory is at Bujjampola, Dankotuwa, and our office is in Colombo. We are a member of GEL Corporation KK, Japan.</p>
         <ul class="pillars">
           <li>
             <svg aria-hidden="true"><use href="#i-extract"/></svg>
@@ -464,17 +496,19 @@
         <h2>Tell us what you need.</h2>
         <p class="lead">Send us the oil, the grade, the volume and where it is going. We will come back with a quote.</p>
 
-        <!-- REPLACE-ME: phone, email and plant address are placeholders. They also appear in the footer and in the form's data-email attribute. -->
         <dl class="reach">
-          <div><dt>Phone</dt><dd><a href="tel:+94000000000">+94 00 000 0000</a></dd></div>
-          <div><dt>Email</dt><dd><a href="mailto:info@example.com">info@example.com</a></dd></div>
-          <div><dt>Plant</dt><dd>Plant address, Sri Lanka</dd></div>
+          <div><dt>Office</dt><dd>1E, 2/1 De Fonseka Place,<br>Colombo 05, Sri Lanka</dd></div>
+          <div><dt>Tel</dt><dd><a href="tel:+94112590176">+94 112 590 176</a></dd></div>
+          <div><dt>Mobile</dt><dd><a href="tel:+94772227837">+94 772 227 837</a></dd></div>
+          <div><dt>Fax</dt><dd>+94 112 581 618</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:agroextractlanka@gmail.com">agroextractlanka@gmail.com</a></dd></div>
+          <div><dt>Factory</dt><dd>P.O. Box No. 3, Bujjampola,<br>Dankotuwa, Sri Lanka<br><a href="tel:+94312260300">+94 312 260 300</a> <span aria-hidden="true">/</span> <a href="tel:+94312260301">+94 312 260 301</a></dd></div>
         </dl>
       </div>
 
       <div class="contact__form">
-        <!-- REPLACE-ME: data-email is where enquiries are addressed. -->
-        <form class="form" id="enquiry" data-email="info@example.com" novalidate>
+        <!-- data-email is where enquiries are addressed. -->
+        <form class="form" id="enquiry" data-email="agroextractlanka@gmail.com" novalidate>
           <h3>Enquiry</h3>
           <div class="form__grid">
             <p class="field">
@@ -536,7 +570,7 @@
 
         <div class="ready" id="enquiry-ready" hidden tabindex="-1">
           <h3>Your enquiry is ready to send.</h3>
-          <p>If your email app did not open, copy the text below and send it to <strong id="enquiry-to">info@example.com</strong>.</p>
+          <p>If your email app did not open, copy the text below and send it to <strong id="enquiry-to">agroextractlanka@gmail.com</strong>.</p>
           <textarea id="enquiry-text" class="ready__text" rows="10" readonly aria-label="Enquiry text"></textarea>
           <div class="ready__actions">
             <button class="btn btn--gold" type="button" id="enquiry-copy"><svg aria-hidden="true"><use href="#i-copy"/></svg><span>Copy text</span></button>
@@ -554,6 +588,7 @@
     <div class="site-footer__brand">
       <img src="assets/brand/logo-stacked-reverse.svg" alt="Agro Extract Lanka" width="366" height="190" loading="lazy">
       <p>Solvent extraction plant and edible oil refinery. Canola, sunflower, rice bran, palm and other oilseeds.</p>
+      <p class="site-footer__member">Member of GEL Corporation KK, Japan</p>
     </div>
     <nav aria-label="Footer">
       <h2>Explore</h2>
@@ -568,15 +603,16 @@
     <div>
       <h2>Talk to us</h2>
       <ul>
-        <li><a href="tel:+94000000000">+94 00 000 0000</a></li>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li>Plant address, Sri Lanka</li>
+        <li><a href="tel:+94112590176">+94 112 590 176</a></li>
+        <li><a href="mailto:agroextractlanka@gmail.com">agroextractlanka@gmail.com</a></li>
+        <li>Office: 1E, 2/1 De Fonseka Place, Colombo 05</li>
+        <li>Factory: Bujjampola, Dankotuwa</li>
         <li><a href="#sourcing">Sell us your crop</a></li>
       </ul>
     </div>
   </div>
   <div class="wrap site-footer__base">
-    <p>© <span id="year">2026</span> Agro Extract Lanka. All rights reserved.</p>
+    <p>© <span id="year">2026</span> Agro Extract Lanka (Pvt) Ltd. All rights reserved.</p>
     <details class="credits">
       <summary>Photo credits</summary>
       <ul>

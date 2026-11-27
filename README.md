@@ -14,7 +14,7 @@ python3 -m http.server 8000
 
 ## Before you publish
 
-1. **Contact details are placeholders.** In `index.html`, replace every `+94 00 000 0000` (and the matching `tel:+94000000000` link), `info@example.com` and `Plant address, Sri Lanka`. They appear in the contact section, the footer and the `data-email` attribute on the enquiry form. Searching the file for `REPLACE-ME` finds the two main spots.
+1. **Contact details.** The office and factory addresses, phone numbers, fax and email come from the company business card. To change one, search `index.html` for the old value: it appears in the contact section, the footer, the `data-email` attribute on the enquiry form and the organisation data in the page head.
 2. **Check the wording.** The text describes how a solvent extraction plant and refinery normally work. Confirm it matches what the business really offers: the oils and oilseeds, the meal and co-products, and the quality tests.
 3. **Photos are stock images.** None of them show your own plant. Replace them with your own pictures where you can. The files are in `assets/img/`.
 4. **Sharing preview.** Once the site has a domain, change the `og:image` line in `index.html` to the full address, for example `https://your-domain.lk/og-image.jpg`.
